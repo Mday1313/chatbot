@@ -1,6 +1,6 @@
 // MAke connection
 
-var socket = io.connect('http://localhost:4000');
+var socket = io.connect(process.env.PORT);
 
 // Query DOM
 
