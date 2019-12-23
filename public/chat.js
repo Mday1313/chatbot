@@ -1,6 +1,6 @@
 // MAke connection
 
-var socket = io.connect(process.env.PORT);
+var socket = io.connect('/');
 
 // Query DOM
 
