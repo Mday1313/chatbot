@@ -1,5 +1,6 @@
 // MAke connection
 
+// var socket = io.connect('/1');
 var socket = io.connect('/');
 
 // Query DOM
@@ -9,6 +10,8 @@ var btn = $('#send');
 var output = $('#output');
 
 // emit events
+// const socket = io('/my-namespace');
+
 
 $(btn).on('click', function() {
 
